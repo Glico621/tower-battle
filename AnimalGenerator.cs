@@ -11,7 +11,7 @@ public class AnimalGenerator : MonoBehaviour
     public static int animalNum = 0;//生成された動物の個数を保管
     public static bool isGameOver = false;//ゲームオーバー判定
 
-    private GameObject geneAnimal;//どうぶつ生成（単品）
+    public GameObject geneAnimal;//どうぶつ生成（単品）             #!これprivateから
     public bool isGene;//生成されているか
     public bool isFall;//生成された動物が落下中か
 
