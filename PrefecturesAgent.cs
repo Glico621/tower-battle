@@ -148,7 +148,7 @@ public class PrefecturesAgent : Agent
             isFall = true;//落ちて、どうぞ
         }
 
-        
+
         //個数が増えてれば，報酬を与える
         if (animalCounter < animalNum){
             //AddReward(0.1*(animalNum));
